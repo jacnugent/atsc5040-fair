@@ -7,5 +7,4 @@ dependencies:
   - scipy
   - xarray
   - fair
-  - ipykernel
 prefix: /glade/work/jnug/conda-envs/atsc5040-fair-env
