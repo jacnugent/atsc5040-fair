@@ -14,3 +14,6 @@ TODO: describe basic process
 
 ## Contents of this Repository
 Table of contents
+
+## References
+TODO - Fair publication, document links, etc. 
