@@ -1,5 +1,5 @@
 # atsc5040-fair
-Demonstration of how to run the FaIR simple energy balance model (https://docs.fairmodel.net/en/latest/index.html) for ATSC 5040. 
+Demonstration of how to run the FaIR simple energy balance model (https://docs.fairmodel.net/en/latest/index.html) for ATSC 5040 at the University of Wyoming. 
 
 ## Setup Steps
 Before running this notebook, you need to have the necessary Python packages installed. There are two options for this:
