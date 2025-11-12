@@ -17,7 +17,7 @@ Before running this notebook, you need to have the necessary Python packages ins
     * `python -m pip install -U matplotlib`
   
 ### 3. Check your setup.
-**Run `test_setup.ipynb`**: This notebook should run without errors if the setup completed properly. 
+Launch `jupyter` and run **`test_setup.ipynb`**: This notebook should run without errors if the setup completed properly. 
 
 ## Running the Model
 See the notebook **`fair_demo.ipynb`** for a basic tutorial on how to run FaIR.
