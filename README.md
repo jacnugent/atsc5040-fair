@@ -10,12 +10,18 @@ Before running this notebook, you need to have the necessary Python packages ins
     * `pip install scipy`
     * `pip install fair`
     * `python -m pip install -U matplotlib`
+4. **Run `test_setup.ipynb`**: This notebook should run without errors if the setup completed properly. 
 
 ## Running the Model
-TODO: describe basic process
+See the notebook **`fair_demo.ipynb`** for a basic tutorial on how to run FaIR.
 
 ## Contents of this Repository
-Table of contents
+* **files/**: Input data files necessary to run the notebook. Includes ERF files for various SSPs (`ERF_ssp*_1750-2500.csv`) and the CMIP6 model parameters file (`4xCO2_cummins_ebm3.csv`).
+* **environment.yaml**: Environment file containing all the packages needed to run the notebook.
+* **test_setup.ipynb**: Basic noteook to test that the setup/package installation was successful.
+* **fair_demo.ipynb**: Example notebook to run FaIR; _this is the meat of the demo_.
 
 ## References
-TODO - Fair publication, document links, etc. 
+* [TODO: papers to ref...]
+* FaIR documentation: https://docs.fairmodel.net/en/latest/index.html
+* ERF_ssp files downloaded from Smith, C. (2023): Chapter 7 of the Working Group I Contribution to the IPCC Sixth Assessment Report - data for Figure 7.SM.1 (v20220721). NERC EDS Centre for Environmental Data Analysis, 10 July 2023. doi:10.5285/f0f622f4e9d14f95949a5cc44451e8bb. https://dx.doi.org/10.5285/f0f622f4e9d14f95949a5cc44451e8bb
