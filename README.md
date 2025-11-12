@@ -1,5 +1,5 @@
 # atsc5040-fair
-Demonstration of how to run the FaIR simple energy balance model (https://docs.fairmodel.net/en/latest/index.html) for ATSC 5040 at the University of Wyoming. 
+Demonstration of how to run the FaIR simple energy balance model (https://docs.fairmodel.net/en/latest/index.html) for ATSC 5040 at the University of Wyoming, Fall 2025. 
 
 ## Setup Steps
 
@@ -7,7 +7,7 @@ Demonstration of how to run the FaIR simple energy balance model (https://docs.f
 `git clone https://github.com/jacnugent/atsc5040-fair.git`
 
 ### 2. Install the python packages.
-Before running this notebook, you need to have the necessary Python packages installed. Note that this can take a few minutes. There are two options for this:
+Before running this notebook, you need to have the necessary Python packages installed. Note that this can take several minutes. There are two options for this:
 1. **(Recommended!) Install the packages into a [conda](https://anaconda.org/anaconda/conda) virtual environment**: create a new conda environment with all the packages you will need using `conda env create -f environment.yaml`. When it is finished installing, run `conda activate atsc5040-fair-env` to activate the new envrionment.
 2. **Install the packages directly using pip**: You will need [pandas](https://pandas.pydata.org/docs/getting_started/install.html), [xarray](https://docs.xarray.dev/en/latest/getting-started-guide/installing.html), [scipy](https://scipy.org/install/), [fair](https://docs.fairmodel.net/en/latest/install.html), and [matplotlib](https://matplotlib.org/stable/install/index.html). Run the following commands from your terminal:
     * `pip install pandas` (this needs to be installed before xarray if using pip)
