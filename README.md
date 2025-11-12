@@ -18,10 +18,13 @@ See the notebook **`fair_demo.ipynb`** for a basic tutorial on how to run FaIR.
 ## Contents of this Repository
 * **files/**: Input data files necessary to run the notebook. Includes ERF files for various SSPs (`ERF_ssp*_1750-2500.csv`) and the CMIP6 model parameters file (`4xCO2_cummins_ebm3.csv`).
 * **environment.yaml**: Environment file containing all the packages needed to run the notebook.
-* **test_setup.ipynb**: Basic noteook to test that the setup/package installation was successful.
+* **test_setup.ipynb**: Basic, condensed noteook to test that the setup/package installation was successful.
 * **fair_demo.ipynb**: Example notebook to run FaIR; _this is the meat of the demo_.
 
 ## References
-* [TODO: papers to ref...]
 * FaIR documentation: https://docs.fairmodel.net/en/latest/index.html
-* ERF_ssp files downloaded from Smith, C. (2023): Chapter 7 of the Working Group I Contribution to the IPCC Sixth Assessment Report - data for Figure 7.SM.1 (v20220721). NERC EDS Centre for Environmental Data Analysis, 10 July 2023. doi:10.5285/f0f622f4e9d14f95949a5cc44451e8bb. https://dx.doi.org/10.5285/f0f622f4e9d14f95949a5cc44451e8bb
+* ERF_ssp* files:
+   * Smith, C. (2023): Chapter 7 of the Working Group I Contribution to the IPCC Sixth Assessment Report - data for Figure 7.SM.1 (v20220721). NERC EDS Centre for Environmental Data Analysis, 10 July 2023. doi:10.5285/f0f622f4e9d14f95949a5cc44451e8bb. https://dx.doi.org/10.5285/f0f622f4e9d14f95949a5cc44451e8bb
+* FaIR publications:
+   * Leach, N. J., Jenkins, S., Nicholls, Z., Smith, C. J., Lynch, J., Cain, M., Walsh, T., Wu, B., Tsutsui, J., and Allen, M. R.: FaIRv2.0.0: a generalized impulse response model for climate uncertainty and future scenario exploration, Geosci. Model Dev., 14, 3007--3036, https://doi.org/10.5194/gmd-14-3007-2021, 2021
+   * Smith, C. J., Forster, P. M., Allen, M., Leach, N., Millar, R. J., Passerello, G. A., and Regayre, L. A.: FAIR v1.3: A simple emissions-based impulse response and carbon cycle model, Geosci. Model Dev., https://doi.org/10.5194/gmd-11-2273-2018, 2018.
