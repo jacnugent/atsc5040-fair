@@ -26,6 +26,7 @@ See the notebook **`fair_demo.ipynb`** for a basic tutorial on how to run FaIR.
 ## Contents of this Repository
 * **files/**: Input data files necessary to run the notebook. Includes ERF files for various SSPs (`ERF_ssp*_1750-2500.csv`) and the CMIP6 model parameters file (`4xCO2_cummins_ebm3.csv`).
 * **environment.yaml**: Environment file containing all the packages needed to run the notebook.
+* **environment.yml**: ^Exact same file above, but with a different extension; this is needed to match the naming convention for [binder](https://2i2c.mybinder.org/).
 * **test_setup.ipynb**: Basic, condensed noteook to test that the setup/package installation was successful.
 * **fair_demo.ipynb**: Example notebook to run FaIR; _this is the meat of the demo_.
 
