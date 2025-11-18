@@ -1,0 +1,13 @@
+name: atsc5040-fair-env
+channels:
+  - conda-forge
+  - r
+dependencies:
+  - pandas
+  - scipy
+  - xarray
+  - fair
+  - ipykernel
+  - matplotlib
+  - jupyter
+prefix: /glade/work/jnug/conda-envs/atsc5040-fair-env
